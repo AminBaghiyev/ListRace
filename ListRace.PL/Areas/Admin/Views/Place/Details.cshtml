@@ -1,0 +1,26 @@
+﻿@model Place
+
+<div class="container">
+    <div class="card shadow mb-4">
+        <div class="card-header py-3">
+            <h6 class="m-0 font-weight-bold text-primary">Category Details</h6>
+        </div>
+        <div class="card-body">
+            <img style="width: 150px" src="~/uploads/places/@Model.ImageURL" />
+            <p>Id: @Model.Id</p>
+            <p>Title: @Model.Title</p>
+            <p>Description: @Model.Description</p>
+            <p>Minimum price: @Model.MinPrice</p>
+            <p>Maximum price: @Model.MaxPrice</p>
+            <p>Rating: @Model.Rating</p>
+            <p>Rating count: @Model.RatingCount</p>
+            <p>Category: @Model.Category.Title</p>
+            <p>Active: @Model.IsActive</p>
+            <p>Create time: @Model.CreatedAt</p>
+            @if (Model.UpdatedAt is not null)
+            {
+                <p>Update time: @Model.UpdatedAt</p>
+            }
+        </div>
+    </div>
+</div>

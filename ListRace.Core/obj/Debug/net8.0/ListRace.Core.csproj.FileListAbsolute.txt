@@ -1,0 +1,11 @@
+C:\Users\USER\Desktop\AB205\ListRace\ListRace.Core\bin\Debug\net8.0\ListRace.Core.deps.json
+C:\Users\USER\Desktop\AB205\ListRace\ListRace.Core\bin\Debug\net8.0\ListRace.Core.dll
+C:\Users\USER\Desktop\AB205\ListRace\ListRace.Core\bin\Debug\net8.0\ListRace.Core.pdb
+C:\Users\USER\Desktop\AB205\ListRace\ListRace.Core\obj\Debug\net8.0\ListRace.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\AB205\ListRace\ListRace.Core\obj\Debug\net8.0\ListRace.Core.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\AB205\ListRace\ListRace.Core\obj\Debug\net8.0\ListRace.Core.AssemblyInfo.cs
+C:\Users\USER\Desktop\AB205\ListRace\ListRace.Core\obj\Debug\net8.0\ListRace.Core.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\AB205\ListRace\ListRace.Core\obj\Debug\net8.0\ListRace.Core.dll
+C:\Users\USER\Desktop\AB205\ListRace\ListRace.Core\obj\Debug\net8.0\refint\ListRace.Core.dll
+C:\Users\USER\Desktop\AB205\ListRace\ListRace.Core\obj\Debug\net8.0\ListRace.Core.pdb
+C:\Users\USER\Desktop\AB205\ListRace\ListRace.Core\obj\Debug\net8.0\ref\ListRace.Core.dll

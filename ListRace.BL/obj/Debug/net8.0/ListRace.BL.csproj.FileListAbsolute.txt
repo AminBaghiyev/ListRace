@@ -1,0 +1,17 @@
+C:\Users\USER\Desktop\AB205\ListRace\ListRace.BL\bin\Debug\net8.0\ListRace.BL.deps.json
+C:\Users\USER\Desktop\AB205\ListRace\ListRace.BL\bin\Debug\net8.0\ListRace.BL.dll
+C:\Users\USER\Desktop\AB205\ListRace\ListRace.BL\bin\Debug\net8.0\ListRace.BL.pdb
+C:\Users\USER\Desktop\AB205\ListRace\ListRace.BL\bin\Debug\net8.0\ListRace.Core.dll
+C:\Users\USER\Desktop\AB205\ListRace\ListRace.BL\bin\Debug\net8.0\ListRace.DL.dll
+C:\Users\USER\Desktop\AB205\ListRace\ListRace.BL\bin\Debug\net8.0\ListRace.DL.pdb
+C:\Users\USER\Desktop\AB205\ListRace\ListRace.BL\bin\Debug\net8.0\ListRace.Core.pdb
+C:\Users\USER\Desktop\AB205\ListRace\ListRace.BL\obj\Debug\net8.0\ListRace.BL.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\AB205\ListRace\ListRace.BL\obj\Debug\net8.0\ListRace.BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\AB205\ListRace\ListRace.BL\obj\Debug\net8.0\ListRace.BL.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\AB205\ListRace\ListRace.BL\obj\Debug\net8.0\ListRace.BL.AssemblyInfo.cs
+C:\Users\USER\Desktop\AB205\ListRace\ListRace.BL\obj\Debug\net8.0\ListRace.BL.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\AB205\ListRace\ListRace.BL\obj\Debug\net8.0\ListRace.BB44FB87.Up2Date
+C:\Users\USER\Desktop\AB205\ListRace\ListRace.BL\obj\Debug\net8.0\ListRace.BL.dll
+C:\Users\USER\Desktop\AB205\ListRace\ListRace.BL\obj\Debug\net8.0\refint\ListRace.BL.dll
+C:\Users\USER\Desktop\AB205\ListRace\ListRace.BL\obj\Debug\net8.0\ListRace.BL.pdb
+C:\Users\USER\Desktop\AB205\ListRace\ListRace.BL\obj\Debug\net8.0\ref\ListRace.BL.dll

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "ListRace.Core/1.0.0": {
+        "runtime": {
+          "ListRace.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ListRace.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
