@@ -9,3 +9,4 @@ C:\Users\USER\Desktop\AB205\ListRace\ListRace.Core\obj\Debug\net8.0\ListRace.Cor
 C:\Users\USER\Desktop\AB205\ListRace\ListRace.Core\obj\Debug\net8.0\refint\ListRace.Core.dll
 C:\Users\USER\Desktop\AB205\ListRace\ListRace.Core\obj\Debug\net8.0\ListRace.Core.pdb
 C:\Users\USER\Desktop\AB205\ListRace\ListRace.Core\obj\Debug\net8.0\ref\ListRace.Core.dll
+C:\Users\USER\Desktop\AB205\ListRace\ListRace.Core\obj\Debug\net8.0\ListRace.Core.sourcelink.json

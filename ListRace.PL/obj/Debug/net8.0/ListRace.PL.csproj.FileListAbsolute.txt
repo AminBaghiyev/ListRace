@@ -275,3 +275,4 @@ C:\Users\USER\Desktop\AB205\ListRace\ListRace.PL\bin\Debug\net8.0\FluentValidati
 C:\Users\USER\Desktop\AB205\ListRace\ListRace.PL\obj\Debug\net8.0\ListRace.PL.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\USER\Desktop\AB205\ListRace\ListRace.PL\obj\Debug\net8.0\ListRace.PL.RazorAssemblyInfo.cache
 C:\Users\USER\Desktop\AB205\ListRace\ListRace.PL\obj\Debug\net8.0\ListRace.PL.RazorAssemblyInfo.cs
+C:\Users\USER\Desktop\AB205\ListRace\ListRace.PL\obj\Debug\net8.0\ListRace.PL.sourcelink.json

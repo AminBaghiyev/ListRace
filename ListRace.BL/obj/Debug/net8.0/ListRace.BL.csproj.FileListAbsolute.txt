@@ -15,3 +15,4 @@ C:\Users\USER\Desktop\AB205\ListRace\ListRace.BL\obj\Debug\net8.0\ListRace.BL.dl
 C:\Users\USER\Desktop\AB205\ListRace\ListRace.BL\obj\Debug\net8.0\refint\ListRace.BL.dll
 C:\Users\USER\Desktop\AB205\ListRace\ListRace.BL\obj\Debug\net8.0\ListRace.BL.pdb
 C:\Users\USER\Desktop\AB205\ListRace\ListRace.BL\obj\Debug\net8.0\ref\ListRace.BL.dll
+C:\Users\USER\Desktop\AB205\ListRace\ListRace.BL\obj\Debug\net8.0\ListRace.BL.sourcelink.json

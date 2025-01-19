@@ -3055,8 +3055,8 @@
     },
     "ListRace.DL/1.0.0": {
       "type": "project",
-      "path": "../ListRace.CL/ListRace.DL.csproj",
-      "msbuildProject": "../ListRace.CL/ListRace.DL.csproj"
+      "path": "../ListRace.DL/ListRace.DL.csproj",
+      "msbuildProject": "../ListRace.DL/ListRace.DL.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -3099,8 +3099,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\USER\\Desktop\\AB205\\ListRace\\ListRace.CL\\ListRace.DL.csproj": {
-              "projectPath": "C:\\Users\\USER\\Desktop\\AB205\\ListRace\\ListRace.CL\\ListRace.DL.csproj"
+            "C:\\Users\\USER\\Desktop\\AB205\\ListRace\\ListRace.DL\\ListRace.DL.csproj": {
+              "projectPath": "C:\\Users\\USER\\Desktop\\AB205\\ListRace\\ListRace.DL\\ListRace.DL.csproj"
             }
           }
         }

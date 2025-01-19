@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ListRace.PL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a7817b283606d5e1afe1e579ccb79a04b65c6b2e")]
 [assembly: System.Reflection.AssemblyProductAttribute("ListRace.PL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ListRace.PL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

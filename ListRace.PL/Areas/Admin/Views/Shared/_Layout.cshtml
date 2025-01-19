@@ -1,4 +1,4 @@
-﻿﻿﻿<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -34,7 +34,7 @@
                 <div class="sidebar-brand-icon rotate-n-15">
                     <i class="fas fa-laugh-wink"></i>
                 </div>
-                <div class="sidebar-brand-text mx-3">Simulation</div>
+                <div class="sidebar-brand-text mx-3">ListRace</div>
             </a>
 
             <!-- Divider -->
@@ -56,20 +56,18 @@
                 Interface
             </div>
 
-            <!-- Nav Item - Pages Collapse Menu -->
+            <!-- Nav Item - Tables -->
             <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
-                   aria-expanded="true" aria-controls="collapseTwo">
-                    <i class="fas fa-fw fa-cog"></i>
-                    <span>Components</span>
+                <a class="nav-link" asp-controller="Category" asp-action="Index" >
+                    <i class="fas fa-fw fa-table"></i>
+                    <span>Categories</span>
                 </a>
-                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
-                    <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Custom Components:</h6>
-                        <a class="collapse-item" asp-controller="Place" asp-action="Index">Places</a>
-                        <a class="collapse-item" asp-controller="Category" asp-action="Index">Categories</a>
-                    </div>
-                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" asp-controller="Place" asp-action="Index">
+                    <i class="fas fa-fw fa-table"></i>
+                    <span>Places</span>
+                </a>
             </li>
 
             <!-- Divider -->
