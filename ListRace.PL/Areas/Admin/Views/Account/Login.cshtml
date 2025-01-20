@@ -26,58 +26,43 @@
 
 </head>
 
-<body class="d-flex vh-100 align-items-center bg-gradient-primary">
-
-    <div class="container">
-
-        <!-- Outer Row -->
-        <div class="row justify-content-center">
-
-            <div class="col-xl-10 col-lg-12 col-md-9">
-
-                <div class="card o-hidden border-0 shadow-lg my-5">
-                    <div class="card-body p-0">
-                        <!-- Nested Row within Card Body -->
-                        <div class="row justify-content-center">
-                            <div class="col-lg-6">
-                                <div class="p-5">
-                                    <div class="text-center">
-                                        <h1 class="h4 text-gray-900 mb-4">Welcome Back!</h1>
-                                    </div>
-                                    <form class="user" method="post">
-                                        <div class="form-group">
-                                            <input class="form-control form-control-user" asp-for="UserName" />
-                                            <span class="text-danger" asp-validation-for="UserName"></span>
-                                        </div>
-                                        <div class="form-group">
-                                            <input class="form-control form-control-user" asp-for="Password" />
-                                            <span class="text-danger" asp-validation-for="Password"></span>
-                                        </div>
-                                        <div class="form-group">
-                                            <div class="custom-control custom-checkbox small">
-                                                <input class="custom-control-input" asp-for="RememberMe" />
-                                                <label class="custom-control-label" asp-for="RememberMe"></label>
-                                            </div>
-                                        </div>
-                                        <p class="text-danger text-center">@Html.ValidationMessage("CustomError")</p>
-                                        <button type="submit" class="btn btn-primary btn-user btn-block">
-                                            Login
-                                        </button>
-                                    </form>
-                                    <hr>
-                                    <div class="text-center">
-                                        <a class="small" asp-action="Register">Create an account!</a>
-                                    </div>
+<body class="d-flex vh-100 justify-content-center align-items-center bg-gradient-primary">
+    <div class="col-lg-6 col-md-8 col-10">
+        <div class="card o-hidden border-0 shadow-lg">
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-10">
+                    <div class="p-5">
+                        <div class="text-center">
+                            <h1 class="h4 text-gray-900 mb-4">Welcome Back!</h1>
+                        </div>
+                        <form class="user" method="POST">
+                            <div class="form-group">
+                                <input class="form-control form-control-user" asp-for="UserName" />
+                                <span class="text-danger" asp-validation-for="UserName"></span>
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control form-control-user" asp-for="Password" />
+                                <span class="text-danger" asp-validation-for="Password"></span>
+                            </div>
+                            <div class="form-group">
+                                <div class="custom-control custom-checkbox small">
+                                    <input class="custom-control-input" asp-for="RememberMe" />
+                                    <label class="custom-control-label" asp-for="RememberMe"></label>
                                 </div>
                             </div>
+                            <p class="text-danger text-center">@Html.ValidationMessage("CustomError")</p>
+                            <button type="submit" class="btn btn-primary btn-user btn-block">
+                                Login
+                            </button>
+                        </form>
+                        <hr>
+                        <div class="text-center">
+                            <a class="small" asp-action="Register">Create an Account!</a>
                         </div>
                     </div>
                 </div>
-
             </div>
-
         </div>
-
     </div>
 
     <!-- Bootstrap core JavaScript-->

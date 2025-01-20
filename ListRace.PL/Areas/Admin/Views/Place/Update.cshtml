@@ -3,56 +3,66 @@
     SelectList categories = ViewData["Categories"] as SelectList;
 }
 
-<form class="container" method="POST" enctype="multipart/form-data">
-    <h2 class="my-4">Update Place</h2>
-    <div class="mb-3">
-        <label class="form-label" asp-for="Title"></label>
-        <input class="form-control" asp-for="Title" />
-        <span class="text-danger" asp-validation-for="Title"></span>
+<!-- Begin Page Content -->
+<div class="row align-items-center justify-content-center col-12 p-0 m-0">
+    <div class="card shadow col-lg-6 col-md-8 col-10 p-0">
+        <div class="card-header d-flex justify-content-between align-items-center py-3">
+            <h6 class="m-0 font-weight-bold text-primary">Update Place</h6>
+        </div>
+        <div class="card-body">
+            <form class="container" method="POST" enctype="multipart/form-data">
+                <div class="mb-3">
+                    <label class="form-label" asp-for="Title"></label>
+                    <input class="form-control" asp-for="Title" />
+                    <span class="text-danger" asp-validation-for="Title"></span>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" asp-for="Description"></label>
+                    <input class="form-control" asp-for="Description" />
+                    <span class="text-danger" asp-validation-for="Description"></span>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" asp-for="Image"></label>
+                    <input class="form-control" asp-for="Image" />
+                    <span class="text-danger" asp-validation-for="Image"></span>
+                </div>
+                <div class="mb-3">
+                    <img style="width: 150px" src="~/uploads/places/@Model.ImageURL" />
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" asp-for="MinPrice"></label>
+                    <input class="form-control" asp-for="MinPrice" />
+                    <span class="text-danger" asp-validation-for="MinPrice"></span>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" asp-for="MaxPrice"></label>
+                    <input class="form-control" asp-for="MaxPrice" />
+                    <span class="text-danger" asp-validation-for="MaxPrice"></span>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" asp-for="Rating"></label>
+                    <input class="form-control" asp-for="Rating" />
+                    <span class="text-danger" asp-validation-for="Rating"></span>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" asp-for="RatingCount"></label>
+                    <input class="form-control" asp-for="RatingCount" />
+                    <span class="text-danger" asp-validation-for="RatingCount"></span>
+                </div>
+                <div class="mb-3">
+                    <select class="custom-select" asp-items="categories" asp-for="CategoryId">
+                        <option selected>Select Category</option>
+                    </select>
+                    <span class="text-danger" asp-validation-for="CategoryId"></span>
+                </div>
+                <div class="form-check mb-3">
+                    <input class="form-check-input" class="form-control" asp-for="IsActive" />
+                    <label class="form-check-label" asp-for="IsActive"></label>
+                </div>
+                <p class="text-danger text-center">@Html.ValidationMessage("CustomError")</p>
+                <button type="submit" class="btn btn-primary">Save Changes</button>
+            </form>
+        </div>
     </div>
-    <div class="mb-3">
-        <label class="form-label" asp-for="Description"></label>
-        <input class="form-control" asp-for="Description" />
-        <span class="text-danger" asp-validation-for="Description"></span>
-    </div>
-    <div class="mb-3">
-        <label class="form-label" asp-for="Image"></label>
-        <input class="form-control" asp-for="Image" />
-        <span class="text-danger" asp-validation-for="Image"></span>
-    </div>
-    <div class="mb-3">
-        <img style="width: 150px" src="~/uploads/places/@Model.ImageURL" />
-    </div>  
-    <div class="mb-3">
-        <label class="form-label" asp-for="MinPrice"></label>
-        <input class="form-control" asp-for="MinPrice" />
-        <span class="text-danger" asp-validation-for="MinPrice"></span>
-    </div>
-    <div class="mb-3">
-        <label class="form-label" asp-for="MaxPrice"></label>
-        <input class="form-control" asp-for="MaxPrice" />
-        <span class="text-danger" asp-validation-for="MaxPrice"></span>
-    </div>
-    <div class="mb-3">
-        <label class="form-label" asp-for="Rating"></label>
-        <input class="form-control" asp-for="Rating" />
-        <span class="text-danger" asp-validation-for="Rating"></span>
-    </div>
-    <div class="mb-3">
-        <label class="form-label" asp-for="RatingCount"></label>
-        <input class="form-control" asp-for="RatingCount" />
-        <span class="text-danger" asp-validation-for="RatingCount"></span>
-    </div>
-    <div class="mb-3">
-        <select class="custom-select" asp-items="categories" asp-for="CategoryId">
-            <option selected>Select Category</option>
-        </select>
-        <span class="text-danger" asp-validation-for="CategoryId"></span>
-    </div>
-    <div class="form-check mb-3">
-        <input class="form-check-input" class="form-control" asp-for="IsActive" />
-        <label class="form-check-label" asp-for="IsActive"></label>
-    </div>
-    <p class="text-danger text-center">@Html.ValidationMessage("CustomError")</p>
-    <button type="submit" class="btn btn-primary">Save Changes</button>
-</form>
+</div>
+<!-- /.container-fluid -->

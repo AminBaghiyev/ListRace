@@ -5,6 +5,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{0D0889A9-CEF9-4FDB-ACEA-E7891EE1CB63}|ListRace.PL\\ListRace.PL.csproj|c:\\users\\user\\desktop\\ab205\\listrace\\listrace.pl\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0D0889A9-CEF9-4FDB-ACEA-E7891EE1CB63}|ListRace.PL\\ListRace.PL.csproj|solutionrelative:listrace.pl\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D0889A9-CEF9-4FDB-ACEA-E7891EE1CB63}|ListRace.PL\\ListRace.PL.csproj|c:\\users\\user\\desktop\\ab205\\listrace\\listrace.pl\\areas\\admin\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D0889A9-CEF9-4FDB-ACEA-E7891EE1CB63}|ListRace.PL\\ListRace.PL.csproj|solutionrelative:listrace.pl\\areas\\admin\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D0889A9-CEF9-4FDB-ACEA-E7891EE1CB63}|ListRace.PL\\ListRace.PL.csproj|c:\\users\\user\\desktop\\ab205\\listrace\\listrace.pl\\areas\\admin\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D0889A9-CEF9-4FDB-ACEA-E7891EE1CB63}|ListRace.PL\\ListRace.PL.csproj|solutionrelative:listrace.pl\\areas\\admin\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -44,10 +52,34 @@
               "RelativeDocumentMoniker": "ListRace.PL\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\USER\\Desktop\\AB205\\ListRace\\ListRace.PL\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "ListRace.PL\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAADAAAAAAAAAAAAAQwDgAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIAAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-19T00:33:25.891Z",
+              "WhenOpened": "2025-01-20T10:59:56.493Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\AB205\\ListRace\\ListRace.PL\\Areas\\Admin\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "ListRace.PL\\Areas\\Admin\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\AB205\\ListRace\\ListRace.PL\\Areas\\Admin\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "ListRace.PL\\Areas\\Admin\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACoAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-20T10:17:38.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\AB205\\ListRace\\ListRace.PL\\Areas\\Admin\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "ListRace.PL\\Areas\\Admin\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\AB205\\ListRace\\ListRace.PL\\Areas\\Admin\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "ListRace.PL\\Areas\\Admin\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-20T10:10:56.704Z"
             }
           ]
         }
